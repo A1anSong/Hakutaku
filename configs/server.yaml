@@ -1,0 +1,6 @@
+log:
+  level: info
+  file: ./server.log
+db:
+  driver: mysql
+  uri: "root:123456@tcp(127.0.0.1:3306)/server&charset=utf8mb4&parseTime=True&loc=Local"
